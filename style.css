@@ -1,0 +1,35 @@
+*{
+    margin:1rem;
+    padding:0;
+    margin-left:0.7rem;
+    font-family:Arial, Helvetica, sans-serif;
+}
+p{
+    /* To decrease the height between two line */
+    line-height:1rem;
+}
+/* HEADER */
+h1{
+    text-align:center;
+    text-decoration:underline 0.12rem;
+}
+h2{
+    font-weight:bolder;
+}
+/* MAIN */
+
+h3{
+    text-decoration:underline 0.1rem;
+}
+.qualification{
+    display:flex;
+}
+.information{
+display:flex;
+}
+ul a{
+    /* both content come in single row ,content one by one in single column so do
+    display flex to parent containe(section id :information)*/
+    display:block;
+}
+/* FOOTER */
